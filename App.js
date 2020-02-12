@@ -33,7 +33,7 @@ const Stack = createStackNavigator();
 function App() {
   return (
     <NavigationContainer>
-      <Stack.Navigator initialRouteName="Home" headerMode="float">
+      <Stack.Navigator initialRouteName="Home" headerMode="screen">
         <Stack.Screen
           name="Home"
           component={HomeScreen}
